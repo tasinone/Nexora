@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Nexora",
+  "version": "1.0.0",
+  "description": "The Startpage Reimagined",
+  "author": "RH Tasin",
+  "permissions": [
+    "bookmarks",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "background": {
+    "service_worker": "/scripts/background.js"
+  },
+  "icons": {
+    "16": "/assets/icons/icon16.png",
+    "48": "/assets/icons/icon48.png",
+    "128": "/assets/icons/icon128.png"
+  }
+}
