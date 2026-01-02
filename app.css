@@ -1,3 +1,0 @@
-@import "tailwindcss" source(none);
-@source "./*.{html,js}";     /* scan files in root */
-@plugin "daisyui";
